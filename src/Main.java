@@ -4,10 +4,10 @@ public class Main {
         int base = 4;
         int altezza =3;
 
-        Forma forma = new Forma();
-        Rettangolo rettangolo = new Rettangolo();
+        Rettangolo rettangolo = new Rettangolo(base,altezza);
+        Triangolo triangolo = new Triangolo(base,altezza);
 
-        forma.calcolaArea(base,altezza);
-        rettangolo.calcolaArea(base,altezza);
+        rettangolo.calcolaArea();
+        triangolo.calcolaArea();
     }
 }
